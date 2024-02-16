@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.launch{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 50px;
+}
+button{
+    width: 100px;
+}
+.treeblocks{
+    height: 100px;
+    width: 400px;
+    border: 1px solid black;
+    background-image: url(./Screenshot_2.png);
+    background-position: center;
+}
+.treeContainer{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+}
